@@ -1,4 +1,7 @@
 var styleString = `
+
+#bks-offering-schedule-summary,bks-offering-schedule-summary { display: none; }
+
 /* Schedule Online */
 [ng-if*=textCalendarTitle] { visibility: hidden; position: relative; }
 
