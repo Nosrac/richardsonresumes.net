@@ -1,5 +1,4 @@
-var styleString = "#bks-offering-schedule-summary { display: none; }
-
+var styleString = `
 /* Schedule Online */
 [ng-if*=textCalendarTitle] { visibility: hidden; position: relative; }
 
@@ -19,7 +18,7 @@ var styleString = "#bks-offering-schedule-summary { display: none; }
 [slots-list-title=\"time-of-day.afternoon\"] [role=button]:after {
     visibility: visible; position: absolute; left: 0;
     content: \"Confirm Date\";
-}"
+}`
 
 const style = document.createElement('style');
 style.textContent = styleString;
